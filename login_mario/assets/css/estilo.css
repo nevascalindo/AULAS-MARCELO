@@ -1,0 +1,88 @@
+body {
+    background-color: aqua;
+}
+#mario {
+    width: 200px;
+    margin-top: 150px;
+}
+#form1 {
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 280px;
+    height: 180px;
+}
+#usuario {
+    height: 30px;
+    width: 250px;
+    margin-top: 15px;
+}
+#senha {
+    height: 30px;
+    margin-top: 5px;
+    width: 250px;
+}
+#logar {
+    background-color: #3ACD72;
+    width: 256px;
+    height: 30px;
+    margin-top: 5px;
+    border: 0;
+    color: white;
+}
+#cadastro {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-right: 60px;
+}
+#senhaesquece {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#texto {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#email {
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+}
+#form2 {
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 270px;
+    height: 150px;
+}
+
+#form3 {
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 270px;
+    height: 330px;
+}
+#nome {
+    height: 30px;
+    margin-top: 15px;
+    width: 250px;
+}
+#login {
+    height: 30px;
+    margin-top: 5px;
+    width: 250px;
+}
+
+#pais {
+    height: 30px;
+    margin-top: 5px;
+    width: 255px;  
+}
+#excluir {
+    background-color: #ff0c0c;
+    width: 256px;
+    height: 30px;
+    margin-top: 5px;
+    border: 0;
+    color: white;
+}
