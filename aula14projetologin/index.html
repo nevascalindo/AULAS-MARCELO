@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados de Clientes</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+    <h1>Clientes cadastrados</h1>
+    <table>
+        <tr>
+            <th>Cliente</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>E-mail</th>
+        </tr>
+        <tr>
+            <td>Ana Regina</td>
+            <td>29</td>
+            <td>Curitiba</td>
+            <td>Paraná</td>
+            <td>ana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Fernanda Silva</td>
+            <td>42</td>
+            <td>Joinville</td>
+            <td>Santa Catarina</td>
+            <td>fernanda@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Rodrigo Ferreira</td>
+            <td>70</td>
+            <td>Curitiba</td>
+            <td>Paraná</td>
+            <td>rodrigo@gmail.com</td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>Cadastrar novo Cliente</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"> <br>
+        <label for="idade">Idade:</label>
+        <input type="text" name="idade" id="idade"> <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade" id="idade"> <br>
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+            <option value="parana">Paraná</option>
+            <option value="parana">Joinville</option>
+            <option value="parana">Rio Grande do Sul</option>
+            <option value="parana">São Paulo</option>
+            <option value="parana">Rio de janeiro</option>
+            <option value="parana">Pará</option>
+        </select> <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"> <br>
+        <button id="cancelar">Cancelar</button>
+        <button id="salvar">Salvar</button>
+    </fieldset>
+</body>
+</html>
